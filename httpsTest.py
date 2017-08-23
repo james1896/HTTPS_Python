@@ -17,6 +17,7 @@ if __name__ == '__main__':
     # 使用  pysslOpen自带的证书
     # app.run('0.0.0.0', debug=True, port=8100, ssl_context='adhoc')
 
+
     # 使用自签名证书
     app.run('0.0.0.0', debug=True, port=8100, ssl_context=('/Users/moses/Desktop/https/server.crt',
                                                            '/Users/moses/Desktop/https/server.key'))
